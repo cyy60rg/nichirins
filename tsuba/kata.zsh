@@ -6,7 +6,7 @@
 kata() {
 
     # Manual/Help Content
-    _kats_usage() {
+    _kata_usage() {
         echo "NAME"
         echo "    kata - A history analysis and staging tool"
         echo ""
@@ -33,7 +33,7 @@ kata() {
             fi
             ;;
         -h|--help|*)
-            _analyze_usage
+            _kata_usage
             ;;
     esac
 }
